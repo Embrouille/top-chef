@@ -26,7 +26,7 @@ function generate_url()
 	return new Promise((resolve, reject) => {
 		var promises_urls = [];
 		var urls = [];
-		for(let i=1; i<=2; i++)
+		for(let i=1; i<=35; i++)
 		{
 			promises_urls.push(scrap_url(i));
 		}
