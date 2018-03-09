@@ -1,36 +1,36 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import restaurants from './output.json'
+import restaurants from './output.json';
 import star from './star.png'
 
 function OffersMichelinTitle(props){
 	const isOffer = props.offers[0];
 	if(isOffer)
-		return <h2>Offres michelin</h2>;
+		return <h3>Offres michelin</h3>;
 	return null;
 }
 function OffersLaFourchetteTitle(props){
 	const isOffer = props.offers[0];
 	if(isOffer)
-		return <h2>Offres la fourchette</h2>;
+		return <h3>Offres la fourchette</h3>;
 	return null;
 }
 class PromoLaFourchette extends React.Component {
 	render() {
 		return (
-			<div class='card'>
-				<li class='offer'>
-					{this.props.offer.title}<br/>{this.props.offer.description}
-				</li>
-			</div>)
+			<li class='offer card'>
+				<p>{this.props.offer.title}</p>
+				<p class="font-italic">{this.props.offer.description}</p>
+			</li>)
 	}
 }
 class PromoMichelin extends React.Component {
 	render() {
 		return (
 			<li class='offer card'>
-				{this.props.offer.description}<br/>{this.props.offer.availability}
+				<p>{this.props.offer.description}</p>
+				<p class="font-italic">{this.props.offer.availability}</p>
 			</li>)
 	}
 }
@@ -40,7 +40,6 @@ class PromosMichelin extends React.Component {
 			<div class='offers-div'>
 				<OffersMichelinTitle offers={this.props.offers}/>
 				<div class='offers'>
-					
 					<ul>
 						{
 							this.props.offers.map(function(offer){
@@ -85,7 +84,7 @@ class Star extends React.Component {
 		while(++i<=this.props.number){stars.push(i);} 
 		return (
 			<div>
-				Guide Michelin 2018 &nbsp;
+				Guide Michelin 2018 :&nbsp;
 				{stars.map(function (i) {
 					return <img src={star} alt='star' width='20' height='20' />;
 				})}
@@ -97,19 +96,21 @@ class Restaurant extends React.Component {
 		return (
 			<li class='restaurant'>
 				<div class='container'>
-					<h1>{this.props.value.title}</h1>
-					<div class='stars'>
-						<Star number={this.props.value.stars}/>
-					</div>
-					<Address address={this.props.value.address}/>
-					<div>
-						<span class='description'>
-							{this.props.value.description}&nbsp;
-						</span>
-						|&nbsp;
-						<span class='price'>
-							{this.props.value.price}
-						</span>
+					<h2>{this.props.value.title}</h2>
+					<div class="row">
+						<div class="col">
+							<Address address={this.props.value.address}/>
+							<span class='description'>
+								{this.props.value.description}&nbsp;
+							</span>
+							|&nbsp;
+							<span class='price'>
+								{this.props.value.price}
+							</span>
+						</div>
+						<div class='stars col'>
+							<Star number={this.props.value.stars}/>
+						</div>
 					</div>
 					<div class='specialties'>
 					Spécialité :&nbsp;
@@ -119,33 +120,53 @@ class Restaurant extends React.Component {
 						<PromosMichelin offers={this.props.value.offers}/>
 						<PromosLaFourchette promos={this.props.value.promo_la_fourchette}/>
 					</div>
-					<div class='contact'>
-						<h2>Contact :</h2>
-						{this.props.value.contact_details.phone}<br/>
-						{this.props.value.contact_details.website}
+					<div class='contact card'>
+						<h3>Contact :</h3>
+						<p>Téléphone :&nbsp;{this.props.value.contact_details.phone}</p>
+						<p>Website :&nbsp;{this.props.value.contact_details.website}</p>
 					</div>
 				</div>
 			</li>
 		);
 	}
 }
+class NameFilterButton extends React.Component {
+	render() {
+		return (
+			'namefilterbutton');
+	}
+}
+class SortByStarsButton extends React.Component {
+	render() {
+		return (
+			'sortByStarsButton');
+	}
+}
 class Restaurants extends React.Component {
 	render() {
 		return (
-			<div>
-				<div class='container sortMenu'>
-
-				</div>
-				<div class='container restaurants'>
-					<ul>
-						{
-							this.props.value.map(function(restaurant){
-								return <Restaurant value={restaurant}/>
-							})
-						}
-					</ul>
-				</div>
-			</div>)
+			<html>
+				<header>
+					<h1>Restaurants Michelin</h1>
+				</header>
+				<body>
+					<div>
+						<div class='container sort-filtering-menu'>
+							<NameFilterButton/>
+							<SortByStarsButton/>
+						</div>
+						<div class='container restaurants'>
+							<ul>
+								{
+									this.props.value.map(function(restaurant){
+										return <Restaurant value={restaurant}/>
+									})
+								}
+							</ul>
+						</div>
+					</div>
+				</body>
+			</html>)
 	}
 }
 ReactDOM.render(
