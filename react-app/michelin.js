@@ -100,11 +100,11 @@ async function scrap_page(url)
 		request(url, function (error, response, html) {
 		  	if (!error && response.statusCode == 200) {
 			  	const $ = cheerio.load(html);
-		  		const restaurant = {'title' : '', 'chef' : '', 'description' : '', 'specialities' : '', 'address':{'street_block' : '', 'postal_code' : '', 'locality' : ''}, 'price' : '', 'stars' : '', 'contact_details' : {'phone' : '', 'website' : ''}, 'offers' : [], 'promo_la_fourchette' : []};
+		  		const restaurant = {'title' : '', 'chef' : '', 'description' : '', 'specialties' : '', 'address':{'street_block' : '', 'postal_code' : '', 'locality' : ''}, 'price' : '', 'stars' : '', 'contact_details' : {'phone' : '', 'website' : ''}, 'offers' : [], 'promo_la_fourchette' : []};
 		  		restaurant.title = $('.poi_intro-display-title').text().trim();
 		  		restaurant.chef = $('.node_poi-chef').children('.node_poi_description').children().first().children('.field__items').children().first().text().trim();
 		  		restaurant.description = $('.poi_intro-display-cuisines').text().trim();
-		  		restaurant.specialities = $('.field--name-field-specials').children('.field__items').children().first().text().trim();
+		  		restaurant.specialties = $('.field--name-field-specials').children('.field__items').children().first().text().trim();
 			  	restaurant.address.street_block = $('.street-block').children().first().text().trim();
 			  	restaurant.address.postal_code = $('.postal-code').first().text();
 			  	restaurant.address.locality = $('.locality').first().text().trim();

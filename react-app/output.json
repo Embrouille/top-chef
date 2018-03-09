@@ -3,7 +3,7 @@
         "title": "Agapé",
         "chef": "Yoshitaka Takayanagi",
         "description": "Cuisine Moderne, Créative; Gastronomique",
-        "specialities": "Noix de Veau fumée en Tartare, Caviar d'Aquitaine et Couteaux de Plongée",
+        "specialties": "Noix de Veau fumée en Tartare, Caviar d'Aquitaine et Couteaux de Plongée",
         "address": {
             "street_block": "51 Rue Jouffroy-d'Abbans",
             "postal_code": "75017",
@@ -47,7 +47,7 @@
         "title": "Le Jardin des Remparts",
         "chef": "Christophe Bocquillon",
         "description": "Cuisine Moderne, Créative; Végétarien; Végétalien",
-        "specialities": "Boule d'escargot de Bourgogne, beurre d'ail frit",
+        "specialties": "Boule d'escargot de Bourgogne, beurre d'ail frit",
         "address": {
             "street_block": "10 rue Hôtel-Dieu",
             "postal_code": "21200",
@@ -79,7 +79,7 @@
         "title": "Frédéric Doucet",
         "chef": "Frédéric Doucet",
         "description": "Cuisine Moderne, Créative; Gastronomique; Cuisine Régionale Française; Végétarien",
-        "specialities": "Gnocchis de boeuf et cèpes persillés",
+        "specialties": "Gnocchis de boeuf et cèpes persillés",
         "address": {
             "street_block": "2 avenue de la Libération",
             "postal_code": "71120",
@@ -111,7 +111,7 @@
         "title": "Le Pré Catelan",
         "chef": "Chef Frédéric Anton",
         "description": "Cuisine Moderne, Créative",
-        "specialities": "La Langoustine:  préparée en ravioli, servie dans un bouillon à l'huile d'olive et menthe, nem frit; jus de romaine",
+        "specialties": "La Langoustine:  préparée en ravioli, servie dans un bouillon à l'huile d'olive et menthe, nem frit; jus de romaine",
         "address": {
             "street_block": "Route de Suresnes",
             "postal_code": "75016",
@@ -139,7 +139,7 @@
         "title": "Auberge de l'Île Barbe",
         "chef": "Jean-Christophe Ansanay-Alex",
         "description": "Traditionnel, Classique; Cuisine Moderne, Créative; Gastronomique",
-        "specialities": "Velouté de Champignons \"comme un Cappuccino\" Vapeur de Foie Gras",
+        "specialties": "Velouté de Champignons \"comme un Cappuccino\" Vapeur de Foie Gras",
         "address": {
             "street_block": "1 Place Notre-Dame",
             "postal_code": "69009",
@@ -167,7 +167,7 @@
         "title": "Aigue Marine",
         "chef": "LAISNEY Stanislas",
         "description": "Cuisine Moderne, Créative; Végétarien; Végétalien; Traditionnel, Classique",
-        "specialities": "HOMARD DE PLOUGRESCANT, cerises et oignons de Roscoff",
+        "specialties": "HOMARD DE PLOUGRESCANT, cerises et oignons de Roscoff",
         "address": {
             "street_block": "5 r. M. -Berthelot",
             "postal_code": "22220",
@@ -186,7 +186,7 @@
         "title": "Le 39V",
         "chef": "Frédéric Vardon",
         "description": "Cuisine Moderne, Créative; Traditionnel, Classique; Gastronomique",
-        "specialities": "Oeuf bio cuit à basse température, champignons des bois -girolles, trompettes des morts, cèpes,-, mouillettes",
+        "specialties": "Oeuf bio cuit à basse température, champignons des bois -girolles, trompettes des morts, cèpes,-, mouillettes",
         "address": {
             "street_block": "39 Avenue George V",
             "postal_code": "75008",
@@ -210,7 +210,7 @@
         "title": "Le Saint-Estève",
         "chef": "Mathias Dandine",
         "description": "Cuisine Moderne, Créative; Gastronomique; Végétarien; Végétalien",
-        "specialities": "Polenta crémeuse / truffe d'Alba / fricassée de champignons",
+        "specialties": "Polenta crémeuse / truffe d'Alba / fricassée de champignons",
         "address": {
             "street_block": "2250 route cézanne D17",
             "postal_code": "13100",
@@ -229,7 +229,7 @@
         "title": "Le Clarence",
         "chef": "Christophe Pelé",
         "description": "Cuisine Moderne, Créative; Gastronomique; Végétarien; Végétalien",
-        "specialities": "Bar de ligne. Saint-pierre et ris de veau. Desserts du Clarence.",
+        "specialties": "Bar de ligne. Saint-pierre et ris de veau. Desserts du Clarence.",
         "address": {
             "street_block": "31 Avenue Franklin Delano Roosevelt",
             "postal_code": "75008",
@@ -265,7 +265,7 @@
         "title": "JY'S",
         "chef": "Jean-Yves Schillinger",
         "description": "Cuisine Moderne, Créative; Gastronomique",
-        "specialities": "Tartare de bœuf original avec tous ses accompagnements où l’assaisonnement sera fait par vos soins, pain soufflé",
+        "specialties": "Tartare de bœuf original avec tous ses accompagnements où l’assaisonnement sera fait par vos soins, pain soufflé",
         "address": {
             "street_block": "17 r. de la Poissonnerie",
             "postal_code": "68000",
@@ -284,7 +284,7 @@
         "title": "Restaurant du Palais Royal",
         "chef": "Philip Chronopoulos",
         "description": "Cuisine Moderne, Créative; Gastronomique; Traditionnel, Classique",
-        "specialities": "Herbes lactées, châtaignes confites au Château Chalon et noix",
+        "specialties": "Herbes lactées, châtaignes confites au Château Chalon et noix",
         "address": {
             "street_block": "110 Galerie de Valois - Jardin du Palais Royal",
             "postal_code": "75001",
@@ -303,7 +303,7 @@
         "title": "Les Pêcheurs",
         "chef": "Nicolas RONDELLI",
         "description": "Méditerranéen; Poissons, Fruits de Mer; Gastronomique; Végétarien; Végétalien; Traditionnel, Classique",
-        "specialities": "Langoustines doucement rôties aux cèpes frais crus et cuits, condiment tomate-estragon / Langoustines slowly roasted with fresh ceps raw and cooked, tomato-tarragon condiment",
+        "specialties": "Langoustines doucement rôties aux cèpes frais crus et cuits, condiment tomate-estragon / Langoustines slowly roasted with fresh ceps raw and cooked, tomato-tarragon condiment",
         "address": {
             "street_block": "10 boulevard du Maréchal-Juin",
             "postal_code": "06600",
@@ -335,7 +335,7 @@
         "title": "Le Restaurant",
         "chef": "Julien Montbabut",
         "description": "Cuisine Moderne, Créative; Gastronomique",
-        "specialities": "Ris de veau - Jus aux herbes - Crousti-moelleux, oignon doux & amandes torréfiée",
+        "specialties": "Ris de veau - Jus aux herbes - Crousti-moelleux, oignon doux & amandes torréfiée",
         "address": {
             "street_block": "13 rue des Beaux-Arts",
             "postal_code": "75006",
@@ -375,7 +375,7 @@
         "title": "La Table de Franck Putelat",
         "chef": "Mr Franck PUTELAT",
         "description": "Cuisine Moderne, Créative; Gastronomique; Végétarien; Végétalien",
-        "specialities": "Tartine de haricots de Castelnaudary confits à la sauge",
+        "specialties": "Tartine de haricots de Castelnaudary confits à la sauge",
         "address": {
             "street_block": "80 chemin des Anglais",
             "postal_code": "11000",
@@ -407,7 +407,7 @@
         "title": "Christophe Bacquié",
         "chef": "Christophe Bacquié",
         "description": "Cuisine Moderne, Créative; Gastronomique; Provençal",
-        "specialities": "Aïoli Moderne Légumes de nos maraîchers locaux",
+        "specialties": "Aïoli Moderne Légumes de nos maraîchers locaux",
         "address": {
             "street_block": "Hotel du Castellet Route des Hauts du Camp",
             "postal_code": "83330",
@@ -459,7 +459,7 @@
         "title": "Fanny Rey & Jonathan Wahid",
         "chef": "Fanny Rey & Jonathan Wahid",
         "description": "Cuisine Moderne, Créative; Gastronomique; Végétarien; Végétalien; Provençal",
-        "specialities": "La Saint Jacques de plongée, Croute de Kombu | cresson | écume de lard fermier.",
+        "specialties": "La Saint Jacques de plongée, Croute de Kombu | cresson | écume de lard fermier.",
         "address": {
             "street_block": "12, boulevard Mirabeau",
             "postal_code": "13210",
@@ -478,7 +478,7 @@
         "title": "Paul Bocuse",
         "chef": "Paul BOCUSE",
         "description": "Traditionnel, Classique; Gastronomique; Lyonnais; Végétarien; Végétalien",
-        "specialities": "Soupe aux truffes noires VGE",
+        "specialties": "Soupe aux truffes noires VGE",
         "address": {
             "street_block": "40 Quai de la Plage",
             "postal_code": "69660",
@@ -510,7 +510,7 @@
         "title": "L'Orangerie du Château",
         "chef": "Jean-Marc Molveaux",
         "description": "Cuisine Moderne, Créative; Gastronomique; Traditionnel, Classique",
-        "specialities": "La Raviole de homard, champignons crémeux – herbes potagères et émulsion",
+        "specialties": "La Raviole de homard, champignons crémeux – herbes potagères et émulsion",
         "address": {
             "street_block": "1 Avenue du Docteur Jean Laigret",
             "postal_code": "41000",
@@ -550,7 +550,7 @@
         "title": "La Liégeoise",
         "chef": "Benjamin Delpierre",
         "description": "Cuisine Moderne, Créative",
-        "specialities": "Produits de la Mer",
+        "specialties": "Produits de la Mer",
         "address": {
             "street_block": "digue de mer",
             "postal_code": "62930",
@@ -569,7 +569,7 @@
         "title": "Paloma",
         "chef": "Nicolas DECHERCHI",
         "description": "Cuisine Moderne, Créative; Gastronomique; Traditionnel, Classique; Végétarien; Végétalien",
-        "specialities": "Les petites langoustines à la mandarine",
+        "specialties": "Les petites langoustines à la mandarine",
         "address": {
             "street_block": "47 Avenue du Moulin de la Croix",
             "postal_code": "06250",
@@ -609,7 +609,7 @@
         "title": "Le Saint-James",
         "chef": "Nicolas Magie",
         "description": "Cuisine Moderne, Créative; Végétarien",
-        "specialities": "Œuf fermier croustillant parfumé à l’agastache - Caviar osciètre et écrevisses de chez nous, bisque concentrée légèrement anisée",
+        "specialties": "Œuf fermier croustillant parfumé à l’agastache - Caviar osciètre et écrevisses de chez nous, bisque concentrée légèrement anisée",
         "address": {
             "street_block": "3 pl. Camille-Hostein",
             "postal_code": "33270",
@@ -628,7 +628,7 @@
         "title": "Patrick Jeffroy",
         "chef": "Patrick Jeffroy",
         "description": "Cuisine Moderne, Créative",
-        "specialities": "Bar de ligne, beurre d'herbes",
+        "specialties": "Bar de ligne, beurre d'herbes",
         "address": {
             "street_block": "20 rue du Kelenn",
             "postal_code": "29660",
@@ -664,7 +664,7 @@
         "title": "Mère Brazier",
         "chef": "Mathieu Viannay",
         "description": "Cuisine Moderne, Créative; Gastronomique",
-        "specialities": "Araignée de Mer et Tourteau aux Condiments, Émulsion de Céleri",
+        "specialties": "Araignée de Mer et Tourteau aux Condiments, Émulsion de Céleri",
         "address": {
             "street_block": "12 rue Royale",
             "postal_code": "69001",
@@ -700,7 +700,7 @@
         "title": "Le Violon d'Ingres",
         "chef": "Christian Constant",
         "description": "Traditionnel, Classique; Cuisine Moderne, Créative",
-        "specialities": "Noix de ris de veau braisée au vin jaune, mousseline de céleri rave au beurre noisette",
+        "specialties": "Noix de ris de veau braisée au vin jaune, mousseline de céleri rave au beurre noisette",
         "address": {
             "street_block": "135 Rue Saint-Dominique",
             "postal_code": "75007",
@@ -728,7 +728,7 @@
         "title": "Les Tablettes de Jean-Louis Nomicos",
         "chef": "Jean-Louis Nomicos",
         "description": "Cuisine Moderne, Créative; Gastronomique; Traditionnel, Classique",
-        "specialities": "Macaroni aux truffes noires, foie gras, parmesan et jus de veau",
+        "specialties": "Macaroni aux truffes noires, foie gras, parmesan et jus de veau",
         "address": {
             "street_block": "16 Avenue Bugeaud",
             "postal_code": "75016",
@@ -756,7 +756,7 @@
         "title": "La Tour des Vents",
         "chef": "Damien Fagette",
         "description": "Cuisine Moderne, Créative; Traditionnel, Classique; Végétarien; Végétalien",
-        "specialities": "Foie gras de canard poêlé",
+        "specialties": "Foie gras de canard poêlé",
         "address": {
             "street_block": "Le Moulin de Malfourat",
             "postal_code": "24240",
@@ -780,7 +780,7 @@
         "title": "Hostellerie de l'Abbaye de la Celle",
         "chef": "Nicolas Pierantoni",
         "description": "Méditerranéen; Cuisine Moderne, Créative; Provençal; Gastronomique; Végétarien; Végétalien",
-        "specialities": "Petits farçis comme on les aime en Provence",
+        "specialties": "Petits farçis comme on les aime en Provence",
         "address": {
             "street_block": "10 Place Général de Gaulle",
             "postal_code": "83170",
@@ -812,7 +812,7 @@
         "title": "Le Moulin du Roc",
         "chef": "Alain Gardillou",
         "description": "Traditionnel, Classique; Gastronomique; Cuisines du Sud-Ouest; Végétarien; Cuisine Moderne, Créative",
-        "specialities": "Langoustines, brioche toastée et condiment à l’oseille",
+        "specialties": "Langoustines, brioche toastée et condiment à l’oseille",
         "address": {
             "street_block": "Avenue Eugène Le Roy",
             "postal_code": "24530",
@@ -831,7 +831,7 @@
         "title": "Têtedoie",
         "chef": "Christian Têtedoie",
         "description": "Cuisine Moderne, Créative; Gastronomique; Végétarien",
-        "specialities": "Homard et Tête de Veau",
+        "specialties": "Homard et Tête de Veau",
         "address": {
             "street_block": "4 Rue Professeur Pierre Marion",
             "postal_code": "69005",
@@ -855,7 +855,7 @@
         "title": "Sur Mesure par Thierry Marx",
         "chef": "Thierry Marx",
         "description": "Cuisine Moderne, Créative; Gastronomique",
-        "specialities": "Pressé de foie gras / Anguille fumée « Terre et Estuaire »",
+        "specialties": "Pressé de foie gras / Anguille fumée « Terre et Estuaire »",
         "address": {
             "street_block": "251 Rue Saint Honoré",
             "postal_code": "75001",
@@ -907,7 +907,7 @@
         "title": "L'Almandin",
         "chef": "Christophe Schmitt",
         "description": "Cuisine Moderne, Créative; Gastronomique",
-        "specialities": "La Sole «Petit Bateau» Asperges vertes rôties, Mini Blettes rouges et Fruits de la Passion, Hollandaise légère",
+        "specialties": "La Sole «Petit Bateau» Asperges vertes rôties, Mini Blettes rouges et Fruits de la Passion, Hollandaise légère",
         "address": {
             "street_block": "Boulevard de l'Almandin",
             "postal_code": "66750",
@@ -939,7 +939,7 @@
         "title": "Le Relais Bernard Loiseau",
         "chef": "Patrick Bertron",
         "description": "Traditionnel, Classique; Cuisine Moderne, Créative; Gastronomique; Cuisine Régionale Française; Végétarien; Végétalien",
-        "specialities": "Jambonnettes de grenouilles à la purée d’ail et au jus de persil",
+        "specialties": "Jambonnettes de grenouilles à la purée d’ail et au jus de persil",
         "address": {
             "street_block": "2, rue d'Argentine",
             "postal_code": "21210",
@@ -983,7 +983,7 @@
         "title": "Le Taillevent",
         "chef": "Alain Solivérès",
         "description": "Traditionnel, Classique; Gastronomique",
-        "specialities": "Rémoulade de Tourteau à l'aneth, Sauce Fleurette Citronnée",
+        "specialties": "Rémoulade de Tourteau à l'aneth, Sauce Fleurette Citronnée",
         "address": {
             "street_block": "15 Rue Lamennais",
             "postal_code": "75008",
@@ -1011,7 +1011,7 @@
         "title": "1217",
         "chef": "Jean-Alexandre OUARATTA",
         "description": "Cuisine Moderne, Créative; Gastronomique; Végétarien; Végétalien",
-        "specialities": "Artichauts « Poivrade » sous un Voile Croustillant, Escargots de Bourgogne et Expression de champignons",
+        "specialties": "Artichauts « Poivrade » sous un Voile Croustillant, Escargots de Bourgogne et Expression de champignons",
         "address": {
             "street_block": "le bourg",
             "postal_code": "69620",
@@ -1055,7 +1055,7 @@
         "title": "La Bastide de Moustiers",
         "chef": "Frédéric Garnier",
         "description": "Provençal; Végétarien; Végétalien",
-        "specialities": "Pois chiche de Sainte Croix du Verdon, genévrier, racines",
+        "specialties": "Pois chiche de Sainte Croix du Verdon, genévrier, racines",
         "address": {
             "street_block": "Parc naturel régional du Verdon, Chemin de Quinson",
             "postal_code": "04360",
@@ -1083,7 +1083,7 @@
         "title": "Assiette Champenoise",
         "chef": "Arnaud Lallement",
         "description": "Cuisine Moderne, Créative; Gastronomique; Végétarien; Végétalien",
-        "specialities": "Langoustine royale, nage réduite",
+        "specialties": "Langoustine royale, nage réduite",
         "address": {
             "street_block": "40 av. Paul Vaillant-Couturier",
             "postal_code": "51430",
@@ -1102,7 +1102,7 @@
         "title": "Le Chiberta",
         "chef": "Stéphane Laruelle",
         "description": "Cuisine Moderne, Créative; Gastronomique; Végétarien; Végétalien",
-        "specialities": "Saumon façon ″gravlax″ en tartare panna cotta de brocolis, chantilly iodée",
+        "specialties": "Saumon façon ″gravlax″ en tartare panna cotta de brocolis, chantilly iodée",
         "address": {
             "street_block": "3 Rue Arsène Houssaye",
             "postal_code": "75008",
@@ -1135,7 +1135,7 @@
         "title": "Hostellerie Bérard",
         "chef": "Jean-François Bérard",
         "description": "Cuisine Moderne, Créative; Gastronomique; Cuisine Régionale Française; Végétarien; Végétalien",
-        "specialities": "La Salade BERARD, «  Terre et Mer » en osmose, homard, foie gras, Les dernières truffes, collection de salades",
+        "specialties": "La Salade BERARD, «  Terre et Mer » en osmose, homard, foie gras, Les dernières truffes, collection de salades",
         "address": {
             "street_block": "Avenue Gabriel-Péri",
             "postal_code": "83740",
@@ -1154,7 +1154,7 @@
         "title": "Numéro 3",
         "chef": "Laurent Trochain",
         "description": "Cuisine Moderne, Créative; Gastronomique",
-        "specialities": "Foie gras de canard poêlé, figue et courge rôties, tuile au gruau de cacao, réduction de vinaigre balsamique au chocolat",
+        "specialties": "Foie gras de canard poêlé, figue et courge rôties, tuile au gruau de cacao, réduction de vinaigre balsamique au chocolat",
         "address": {
             "street_block": "3 rue du Général de Gaulle",
             "postal_code": "78490",
@@ -1186,7 +1186,7 @@
         "title": "Le Petit Nice",
         "chef": "Gérald Passédat",
         "description": "Poissons, Fruits de Mer; Cuisine Moderne, Créative; Gastronomique; Végétarien; Végétalien",
-        "specialities": "L’oursin, en transparence d’eau d’aubergine, vermicelles de seiche, chair d’araignée et soupe d’oursin",
+        "specialties": "L’oursin, en transparence d’eau d’aubergine, vermicelles de seiche, chair d’araignée et soupe d’oursin",
         "address": {
             "street_block": "Anse de Maldormé - Corniche J. F. Kennedy",
             "postal_code": "13007",
@@ -1234,7 +1234,7 @@
         "title": "La Barbacane",
         "chef": "RYON Jérôme",
         "description": "Traditionnel, Classique; Végétarien; Végétalien",
-        "specialities": "Légumes d’hiver En fricassée, cuisinés en barigoule, et ses toasts aux aromates, truffes de Bourgogne",
+        "specialties": "Légumes d’hiver En fricassée, cuisinés en barigoule, et ses toasts aux aromates, truffes de Bourgogne",
         "address": {
             "street_block": "Place Auguste-Pierre-Pont",
             "postal_code": "11000",
@@ -1266,7 +1266,7 @@
         "title": "Le Fanal",
         "chef": "Pascal Borrell",
         "description": "Cuisine Moderne, Créative; Gastronomique; Traditionnel, Classique; Végétarien",
-        "specialities": "Tartare Iodé",
+        "specialties": "Tartare Iodé",
         "address": {
             "street_block": "17 Avenue du Fontaulé",
             "postal_code": "66650",
@@ -1285,7 +1285,7 @@
         "title": "Au Trou Gascon",
         "chef": "Hugo MARTIN",
         "description": "Cuisines du Sud-Ouest; Cuisine Moderne, Créative",
-        "specialities": "damier de St Jacques marinées, léger tartare d'algues et huîtres",
+        "specialties": "damier de St Jacques marinées, léger tartare d'algues et huîtres",
         "address": {
             "street_block": "40 rue Taine",
             "postal_code": "75012",
@@ -1304,7 +1304,7 @@
         "title": "Le Cloître",
         "chef": "Jerome Roy",
         "description": "Cuisine Moderne, Créative; Provençal; Gastronomique",
-        "specialities": "L'Agneau de Provence: Selle rôtie au beurre de tamarillo Piment doux mi - confit et crumble d’oignons",
+        "specialties": "L'Agneau de Provence: Selle rôtie au beurre de tamarillo Piment doux mi - confit et crumble d’oignons",
         "address": {
             "street_block": "Le Cloitre",
             "postal_code": "04300",
@@ -1328,7 +1328,7 @@
         "title": "Carré des Feuillants",
         "chef": "Alain Dutournier",
         "description": "Cuisine Moderne, Créative; Gastronomique",
-        "specialities": "spéciales d'Arcachon, caviar Ebène et feuille au goût d'huître",
+        "specialties": "spéciales d'Arcachon, caviar Ebène et feuille au goût d'huître",
         "address": {
             "street_block": "14 rue de Castiglione",
             "postal_code": "75001",
@@ -1347,7 +1347,7 @@
         "title": "Le Hittau",
         "chef": "Yannick Duc",
         "description": "Cuisine Moderne, Créative; Végétarien; Végétalien",
-        "specialities": "Homard, déshabillé, raviolis curry vert, émulsion de presse de carapaces, lait de coco",
+        "specialties": "Homard, déshabillé, raviolis curry vert, émulsion de presse de carapaces, lait de coco",
         "address": {
             "street_block": "1 rue du Nouaou",
             "postal_code": "40230",
@@ -1366,7 +1366,7 @@
         "title": "Dominique Bouchet",
         "chef": "Dominique Bouchet",
         "description": "Traditionnel, Classique; Cuisine Moderne, Créative; Gastronomique",
-        "specialities": "Cœur d’artichaut fondant au miso",
+        "specialties": "Cœur d’artichaut fondant au miso",
         "address": {
             "street_block": "11 Rue Treilhard",
             "postal_code": "75008",
@@ -1394,7 +1394,7 @@
         "title": "G.a. au Manoir de Rétival",
         "chef": "David Goerne",
         "description": "Cuisine Moderne, Créative; Cuisine Moderne, Créative",
-        "specialities": "Cuisine du marché",
+        "specialties": "Cuisine du marché",
         "address": {
             "street_block": "2 rue St. Clair",
             "postal_code": "76490",
@@ -1422,7 +1422,7 @@
         "title": "Mirazur",
         "chef": "Mauro Colagreco",
         "description": "Cuisine Moderne, Créative; Gastronomique; Végétarien; Végétalien",
-        "specialities": "Crème au safran, espuma d'amande et sorbet à l'orange",
+        "specialties": "Crème au safran, espuma d'amande et sorbet à l'orange",
         "address": {
             "street_block": "30, Avenue Aristide Briand",
             "postal_code": "06500",
@@ -1466,7 +1466,7 @@
         "title": "1912",
         "chef": "Le chef Johan THYRIOT",
         "description": "Cuisine Moderne, Créative; Gastronomique; Fusion; Végétarien",
-        "specialities": "La Tomate, Les différentes variétés anciennes déposées sur une fine gelée, fraîcheur de burrata & sorbet balsamique, touche de verveine d’argentine",
+        "specialties": "La Tomate, Les différentes variétés anciennes déposées sur une fine gelée, fraîcheur de burrata & sorbet balsamique, touche de verveine d’argentine",
         "address": {
             "street_block": "bd de la Cahotte",
             "postal_code": "14360",
@@ -1485,7 +1485,7 @@
         "title": "Gill",
         "chef": "Gilles Tournadre",
         "description": "Cuisine Moderne, Créative; Végétarien; Végétalien; Gastronomique",
-        "specialities": "Le pigeon à la Rouennaise : ses cuisses confites et laquées, foie gras de cannard poêlé, raviolis aux herbes",
+        "specialties": "Le pigeon à la Rouennaise : ses cuisses confites et laquées, foie gras de cannard poêlé, raviolis aux herbes",
         "address": {
             "street_block": "9 quai de la Bourse",
             "postal_code": "76000",
@@ -1504,7 +1504,7 @@
         "title": "Le Magasin aux Vivres",
         "chef": "Christophe Dufossé",
         "description": "Cuisine Moderne, Créative; Gastronomique",
-        "specialities": "Cassolettes gourmandes",
+        "specialties": "Cassolettes gourmandes",
         "address": {
             "street_block": "5 Avenue Ney",
             "postal_code": "57000",
@@ -1523,7 +1523,7 @@
         "title": "La Dame de Pic",
         "chef": "Anne-Sophie Pic",
         "description": "Cuisine Moderne, Créative; Gastronomique; Végétarien; Végétalien",
-        "specialities": "LES BERLINGOTS au coulant de Pélardonlégérement fumé, choux pluriels à la fève de Tonka",
+        "specialties": "LES BERLINGOTS au coulant de Pélardonlégérement fumé, choux pluriels à la fève de Tonka",
         "address": {
             "street_block": "20 Rue du Louvre",
             "postal_code": "75001",
@@ -1542,7 +1542,7 @@
         "title": "La Marelle",
         "chef": "Didier Goiffon",
         "description": "Cuisine Moderne, Créative; Gastronomique; Végétarien; Végétalien",
-        "specialities": "le foie gras des Landes au naturel, éclats de nougatine, sorbet du coing en pickles",
+        "specialties": "le foie gras des Landes au naturel, éclats de nougatine, sorbet du coing en pickles",
         "address": {
             "street_block": "1593 av. de Lyon",
             "postal_code": "01960",
@@ -1566,7 +1566,7 @@
         "title": "Château de Pray",
         "chef": "Arnaud Philippon",
         "description": "Cuisine Moderne, Créative; Gastronomique; Cuisine Régionale Française; Végétarien; Végétalien",
-        "specialities": "Œuf de plein air cuit à basse température, \"galipette\" et céleri branche",
+        "specialties": "Œuf de plein air cuit à basse température, \"galipette\" et céleri branche",
         "address": {
             "street_block": "Rue du Cèdre",
             "postal_code": "37400",
@@ -1585,7 +1585,7 @@
         "title": "Le Pressoir",
         "chef": "Vincent David",
         "description": "Cuisine Moderne, Créative; Gastronomique; Végétarien; Végétalien",
-        "specialities": "Langoustine en tartare juste tiédi à la fleur de thym, nage au Kari Gosse, champignon cuisiné comme des cèpes, zestes d'agrumes",
+        "specialties": "Langoustine en tartare juste tiédi à la fleur de thym, nage au Kari Gosse, champignon cuisiné comme des cèpes, zestes d'agrumes",
         "address": {
             "street_block": "7 r. de l'Hôpital",
             "postal_code": "56890",
@@ -1604,7 +1604,7 @@
         "title": "Il Carpaccio",
         "chef": "",
         "description": "Italien; Végétarien; Végétalien",
-        "specialities": "Tartelette aux artichauts cuits, épinards et vinaigrette à la truffe noire",
+        "specialties": "Tartelette aux artichauts cuits, épinards et vinaigrette à la truffe noire",
         "address": {
             "street_block": "37 avenue Hoche",
             "postal_code": "75008",
@@ -1632,7 +1632,7 @@
         "title": "Aux Pesked",
         "chef": "Mathieu Aumont",
         "description": "Poissons, Fruits de Mer; Cuisine Moderne, Créative; Gastronomique; Végétarien; Végétalien",
-        "specialities": "Menu Homard entier en 2 services",
+        "specialties": "Menu Homard entier en 2 services",
         "address": {
             "street_block": "59 Rue du Légué",
             "postal_code": "22000",
@@ -1651,7 +1651,7 @@
         "title": "Alain Llorca",
         "chef": "LLORCA ALAIN",
         "description": "Provençal; Cuisine Moderne, Créative; Végétarien; Végétalien",
-        "specialities": "Pigeon fermier du Tarn Cuisiné sur le coffre au grill à bois/fine tarte gourmande/jus court",
+        "specialties": "Pigeon fermier du Tarn Cuisiné sur le coffre au grill à bois/fine tarte gourmande/jus court",
         "address": {
             "street_block": "350 Route de Saint-Paul",
             "postal_code": "06480",
@@ -1675,7 +1675,7 @@
         "title": "En Marge",
         "chef": "Frank Renimel",
         "description": "Cuisine Moderne, Créative; Gastronomique; Végétarien; Végétalien",
-        "specialities": "Cappuccino de champignons, foie gras, émulsion de volaille",
+        "specialties": "Cappuccino de champignons, foie gras, émulsion de volaille",
         "address": {
             "street_block": "1204 route de la Croix-Falgarde",
             "postal_code": "31320",
@@ -1703,7 +1703,7 @@
         "title": "Auberge du Vieux Puits",
         "chef": "Gilles Goujon",
         "description": "Cuisine Moderne, Créative; Végétarien; Végétalien",
-        "specialities": "OEuf de poule \"pourri\" de truffes sur une purée de champignons et truffe",
+        "specialties": "OEuf de poule \"pourri\" de truffes sur une purée de champignons et truffe",
         "address": {
             "street_block": "5 Avenue Saint-Victor",
             "postal_code": "11360",
@@ -1722,7 +1722,7 @@
         "title": "Domaine d'Auriac",
         "chef": "Philippe Deschamps",
         "description": "Traditionnel, Classique; Cuisine Moderne, Créative; Gastronomique; Végétarien; Végétalien",
-        "specialities": "Les belles viandes et gibier (en saison)",
+        "specialties": "Les belles viandes et gibier (en saison)",
         "address": {
             "street_block": "Route de Saint-Hilaire",
             "postal_code": "11000",
@@ -1746,7 +1746,7 @@
         "title": "L'Oustau de Baumanière",
         "chef": "Jean-André Charial",
         "description": "Cuisine Moderne, Créative; Gastronomique; Provençal; Végétarien",
-        "specialities": "ROUGET ONCTUEUX,  condiments, sablé au parmesan, en hommage à Raymond Thuilier",
+        "specialties": "ROUGET ONCTUEUX,  condiments, sablé au parmesan, en hommage à Raymond Thuilier",
         "address": {
             "street_block": "Village des Baux-de-Provence",
             "postal_code": "13520",
@@ -1765,7 +1765,7 @@
         "title": "Les Fresques",
         "chef": "Didier Casaguana",
         "description": "Cuisine Moderne, Créative; Gastronomique; Traditionnel, Classique",
-        "specialities": "L'alliance entre le caviar \"Prunier\" de Montpon et l'huître \"Ostra Régal\", sorbet Péchalou 36€",
+        "specialties": "L'alliance entre le caviar \"Prunier\" de Montpon et l'huître \"Ostra Régal\", sorbet Péchalou 36€",
         "address": {
             "street_block": "D18",
             "postal_code": "24240",
@@ -1784,7 +1784,7 @@
         "title": "Bruno",
         "chef": "Benjamin Bruno",
         "description": "Traditionnel, Classique; Gastronomique; Végétarien; Végétalien",
-        "specialities": "Feuilleté de truffe tuber aestivum bardée de lard au foie gras",
+        "specialties": "Feuilleté de truffe tuber aestivum bardée de lard au foie gras",
         "address": {
             "street_block": "2350 route des Arcs, Campagne Mariette",
             "postal_code": "83510",
@@ -1803,7 +1803,7 @@
         "title": "Le Pavillon des Boulevards",
         "chef": "Thomas Morel",
         "description": "Cuisine Moderne, Créative",
-        "specialities": "Rouleaux de céleri et king crab, caviar, œufs de homard et poisson volant",
+        "specialties": "Rouleaux de céleri et king crab, caviar, œufs de homard et poisson volant",
         "address": {
             "street_block": "120 r. Croix-de-Seguey",
             "postal_code": "33000",
@@ -1831,7 +1831,7 @@
         "title": "La Maison de Bournissac",
         "chef": "Christian Peyre",
         "description": "Méditerranéen; Cuisine Moderne, Créative; Provençal; Traditionnel, Classique; Végétalien",
-        "specialities": "Langoustine rôtie en croûte de pistou, pinces en nem fin et gaspacho",
+        "specialties": "Langoustine rôtie en croûte de pistou, pinces en nem fin et gaspacho",
         "address": {
             "street_block": "montée d'Eyragues",
             "postal_code": "13550",
@@ -1850,7 +1850,7 @@
         "title": "Le Quincangrogne",
         "chef": "Franck Charpentier",
         "description": "Cuisine Moderne, Créative; Gastronomique; Végétarien; Végétalien",
-        "specialities": "OEuf fermier de Dampmart, cresson de fontaine et shitakés de Villeneuve-sur-Bellot. Cochon de Dagny, chorizo ibérique, piment doux et jus d'une olive pressée. Saint-honoré au chocolat kayambé et curry du jardin, sorbet cacao.",
+        "specialties": "OEuf fermier de Dampmart, cresson de fontaine et shitakés de Villeneuve-sur-Bellot. Cochon de Dagny, chorizo ibérique, piment doux et jus d'une olive pressée. Saint-honoré au chocolat kayambé et curry du jardin, sorbet cacao.",
         "address": {
             "street_block": "7 Rue de l'Abreuvoir",
             "postal_code": "77400",
@@ -1869,7 +1869,7 @@
         "title": "Auberge du Bon Laboureur",
         "chef": "Antoine Jeudi",
         "description": "Cuisine Moderne, Créative; Gastronomique; Cuisine Régionale Française; Végétarien",
-        "specialities": "Langoustines juste saisies, vinaigrette de betterave et déclinaison moelleuse et croustillante autour du persil",
+        "specialties": "Langoustines juste saisies, vinaigrette de betterave et déclinaison moelleuse et croustillante autour du persil",
         "address": {
             "street_block": "6 r. Dr Bretonneau",
             "postal_code": "37150",
@@ -1888,7 +1888,7 @@
         "title": "J.-M. Pérochon",
         "chef": "Jean-Marc Pérochon",
         "description": "Cuisine Moderne, Créative; Végétarien; Végétalien",
-        "specialities": "velouté de potimarron, chantilly de lard",
+        "specialties": "velouté de potimarron, chantilly de lard",
         "address": {
             "street_block": "63 avenue de la Grand'Roche",
             "postal_code": "85470",
@@ -1907,7 +1907,7 @@
         "title": "Les Bacchanales",
         "chef": "Christophe Dufau",
         "description": "Cuisine Moderne, Créative; Gastronomique; Végétarien; Végétalien",
-        "specialities": "Gamberonis de San Remo et géranium",
+        "specialties": "Gamberonis de San Remo et géranium",
         "address": {
             "street_block": "247 avenue de Provence",
             "postal_code": "06140",
@@ -1926,7 +1926,7 @@
         "title": "1920",
         "chef": "Julien Gatillon",
         "description": "Cuisine Moderne, Créative; Végétarien; Végétalien",
-        "specialities": "Gamberoni du Golf de Gênes « avocat-crevettes », pamplemousse juteux et jus de carcasses réduit",
+        "specialties": "Gamberoni du Golf de Gênes « avocat-crevettes », pamplemousse juteux et jus de carcasses réduit",
         "address": {
             "street_block": "373 chemin des follières",
             "postal_code": "74120",
