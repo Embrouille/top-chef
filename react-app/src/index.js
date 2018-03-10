@@ -2,8 +2,36 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import restaurants from './output.json';
-import star from './star.png'
+import star from './Resources/star.png'
+var accents = require('remove-accents');
 
+function getRestaurantsByName(name){
+	var result = [];
+	var search_name = accents.remove(name).toLowerCase();
+	restaurants.forEach(function(restaurant){
+		var restaurant_name = accents.remove(restaurant.title).toLowerCase();
+		if(restaurant_name.indexOf(search_name) >= 0)
+			result.push(restaurant);
+	});
+	return result;
+}
+
+function getRestaurantsByStars(stars1, stars2, stars3){
+	var stars = [];
+	if(stars1) stars.push(1);
+	if(stars2) stars.push(2);
+	if(stars3) stars.push(3);
+	var result = [];
+	restaurants.forEach(function(restaurant){
+		stars.forEach(function(star){
+			if(star === restaurant.stars)
+				result.push(restaurant);
+		})
+	})
+	if(result[0])
+		return result;
+	return restaurants;
+}
 function OffersMichelinTitle(props){
 	const isOffer = props.offers[0];
 	if(isOffer)
@@ -15,6 +43,86 @@ function OffersLaFourchetteTitle(props){
 	if(isOffer)
 		return <h3>Offres la fourchette</h3>;
 	return null;
+}
+class NameForm extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {value: ''};
+
+		this.handleNameChange = this.handleNameChange.bind(this);
+		this.handleNameSubmit = this.handleNameSubmit.bind(this);
+	}
+
+	handleNameChange(event) {
+		this.setState({value: event.target.value});
+	}
+
+	handleNameSubmit(event) {
+		const new_restaurants = getRestaurantsByName(this.state.value);
+		ReactDOM.render(
+			  <Home value={new_restaurants}/>,
+			  	document.getElementById('root')
+			);
+		event.preventDefault();
+	}
+	render() {
+		return (
+			<div>
+				<form onSubmit={this.handleNameSubmit}>
+					<label>Nom du restaurant :</label>
+					<input class="form-control" type="text" value={this.state.value} onChange={this.handleNameChange} />
+					<input class="btn" type="submit" value="Rechercher" />
+				</form>
+			</div>)
+	}
+}
+class StarsForm extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {chkbox: [true, true, true]};
+
+		this.handleStarsChange1 = this.handleStarsChange1.bind(this);
+		this.handleStarsChange2 = this.handleStarsChange2.bind(this);
+		this.handleStarsChange3 = this.handleStarsChange3.bind(this);
+		this.handleStarsSubmit = this.handleStarsSubmit.bind(this);
+	}
+
+	handleStarsChange1(event) {
+		this.state.chkbox[0] = !this.state.chkbox[0];
+	}
+	handleStarsChange2(event) {
+		this.state.chkbox[1] = !this.state.chkbox[0];
+	}
+	handleStarsChange3(event) {
+		this.state.chkbox[2] = !this.state.chkbox[0];
+	}
+
+	handleStarsSubmit(event) {
+		const new_restaurants = getRestaurantsByStars(this.state.chkbox[0], this.state.chkbox[1], this.state.chkbox[2]);
+		ReactDOM.render(
+			  <Home value={new_restaurants}/>,
+			  	document.getElementById('root')
+			);
+		event.preventDefault();
+	}
+	render() {
+		return (
+			<form onSubmit={this.handleStarsSubmit}>
+				<div>
+					<input type="checkbox" class="form-check-input" defaultChecked={this.state.chkbox[0]} onChange={this.handleStarsChange1}/>
+					<label class="form-check-label">restaurants 1 étoile</label>
+				</div>
+				<div>
+				    <input type="checkbox" class="form-check-input" defaultChecked={this.state.chkbox[1]} onChange={this.handleStarsChange2}/>
+				    <label class="form-check-label">restaurants 2 étoiles</label>
+				</div>
+				<div>
+				    <input type="checkbox" class="form-check-input" defaultChecked={this.state.chkbox[2]} onChange={this.handleStarsChange3}/>
+				    <label class="form-check-label">restaurants 3 étoiles</label>
+				</div>
+				<input class="btn" type="submit" value="Rechercher" />
+			</form>)
+	}
 }
 class PromoLaFourchette extends React.Component {
 	render() {
@@ -130,46 +238,43 @@ class Restaurant extends React.Component {
 		);
 	}
 }
-class NameFilterButton extends React.Component {
-	render() {
-		return (
-			'namefilterbutton');
-	}
-}
-class SortByStarsButton extends React.Component {
-	render() {
-		return (
-			'sortByStarsButton');
-	}
-}
 class Restaurants extends React.Component {
 	render() {
 		return (
+			<div class='container restaurants'>
+				<ul>
+					{
+						this.props.value.map(function(restaurant){
+							return <Restaurant value={restaurant}/>
+						})
+					}
+				</ul>
+			</div>
+		);
+	}
+}
+
+class Home extends React.Component {
+	render() { 	
+		return(
 			<html>
 				<header>
-					<h1>Restaurants Michelin</h1>
+					<h1>Restaurants étoilés Guide Michelin</h1>
 				</header>
 				<body>
 					<div>
-						<div class='container sort-filtering-menu'>
-							<NameFilterButton/>
-							<SortByStarsButton/>
+						<div class='container filtering-menu'>
+							<NameForm/>
+							<StarsForm/>
 						</div>
-						<div class='container restaurants'>
-							<ul>
-								{
-									this.props.value.map(function(restaurant){
-										return <Restaurant value={restaurant}/>
-									})
-								}
-							</ul>
-						</div>
+						<Restaurants value={this.props.value}/>
 					</div>
 				</body>
 			</html>)
 	}
 }
+
 ReactDOM.render(
-  <Restaurants value={restaurants}/>,
+  <Home value={restaurants}/>,
   	document.getElementById('root')
 );
