@@ -100,10 +100,10 @@ class StarsForm extends React.Component {
 		this.state.chkbox[0] = !this.state.chkbox[0];
 	}
 	handleStarsChange2(event) {
-		this.state.chkbox[1] = !this.state.chkbox[0];
+		this.state.chkbox[1] = !this.state.chkbox[1];
 	}
 	handleStarsChange3(event) {
-		this.state.chkbox[2] = !this.state.chkbox[0];
+		this.state.chkbox[2] = !this.state.chkbox[2];
 	}
 
 	handleStarsSubmit(event) {
