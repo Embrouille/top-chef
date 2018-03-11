@@ -10,7 +10,7 @@ It creates the output file with all the restaurants scraped </br>
 
 ## REACT SIDE
 Open the foler react-app </br>
-Run npm-start </br>
+Run <code>npm-start</code> </br>
 Go to localhost:3000 on your navigator to show the react website </br>
 You can search a restaurant by name, writing a sub-string contained by the name (it is not case-sensitive, or accent-sensitive, try different things) </br>
 You can also search the restaurants by their number of stars </br>
