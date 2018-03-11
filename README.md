@@ -1,7 +1,7 @@
 # TOP CHEF
 
 ## NODE SIDE
-Open the folder node-project
+Open the folder node-project </br>
 Open the console
 Run <code>node server.js</code>
 Go to localhost:8081 on your navigator to run the server, that starts the scraping
