@@ -244,7 +244,7 @@ class Restaurant extends React.Component {
 					<div class='contact card'>
 						<h3>Contact :</h3>
 						<p>Téléphone :&nbsp;{this.props.value.contact_details.phone}</p>
-						<p>Website :&nbsp;{this.props.value.contact_details.website}</p>
+						<p>Website :&nbsp;<a href={this.props.value.contact_details.website}>{this.props.value.contact_details.website}</a> </p>
 					</div>
 				</div>
 			</li>
