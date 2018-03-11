@@ -2,7 +2,6 @@ var http = require('http');
 var request = require('request');
 var cheerio = require('cheerio');
 var fs = require('fs');
-var getImgSrc = require('get-img-src');
 var la_fourchette = require('./la_fourchette');
 
 
@@ -10,15 +9,7 @@ function print_restaurants()
 {
 	get_restaurants().then(function(values){
 
-		fs.writeFile('output.json', JSON.stringify(values, null, 4), function(err){
-		    console.log('File successfully written! - Check your project directory for the output.json file');
-		});
-	});
-}
-function print_restaurantsbis()
-{
-	get_restaurants_file().then(function(values){
-		fs.writeFile('output.json', JSON.stringify(values, null, 4), function(err){
+		fs.writeFile('../react-app/src/output.json', JSON.stringify(values, null, 4), function(err){
 		    console.log('File successfully written! - Check your project directory for the output.json file');
 		});
 	});
@@ -100,14 +91,14 @@ async function scrap_page(url)
 		request(url, function (error, response, html) {
 		  	if (!error && response.statusCode == 200) {
 			  	const $ = cheerio.load(html);
-		  		const restaurant = {'title' : '', 'chef' : '', 'description' : '', 'specialities' : '', 'adress':{'street_block' : '', 'postal_code' : '', 'locality' : ''}, 'price' : '', 'stars' : '', 'contact_details' : {'phone' : '', 'website' : ''}, 'offers' : [], 'promo_la_fourchette' : []};
+		  		const restaurant = {'title' : '', 'chef' : '', 'description' : '', 'specialities' : '', 'address':{'street_block' : '', 'postal_code' : '', 'locality' : ''}, 'price' : '', 'stars' : '', 'contact_details' : {'phone' : '', 'website' : ''}, 'offers' : [], 'promo_la_fourchette' : []};
 		  		restaurant.title = $('.poi_intro-display-title').text().trim();
 		  		restaurant.chef = $('.node_poi-chef').children('.node_poi_description').children().first().children('.field__items').children().first().text().trim();
 		  		restaurant.description = $('.poi_intro-display-cuisines').text().trim();
 		  		restaurant.specialities = $('.field--name-field-specials').children('.field__items').children().first().text().trim();
-			  	restaurant.adress.street_block = $('.street-block').children().first().text().trim();
-			  	restaurant.adress.postal_code = $('.postal-code').first().text();
-			  	restaurant.adress.locality = $('.locality').first().text().trim();
+			  	restaurant.address.street_block = $('.street-block').children().first().text().trim();
+			  	restaurant.address.postal_code = $('.postal-code').first().text();
+			  	restaurant.address.locality = $('.locality').first().text().trim();
 			  	restaurant.price = $('.poi_intro-display-prices').text().trim();
 			  	var guideStars = $('.guide-icon');
 			  	restaurant.stars = guideStars.hasClass('icon-cotation1etoile') ? 1 : (guideStars.hasClass('icon-cotation2etoiles') ? 2 : 3);
@@ -129,4 +120,3 @@ async function scrap_page(url)
 }
 module.exports.get_restaurants = get_restaurants;
 module.exports.print_restaurants = print_restaurants;
-module.exports.print_restaurantsbis = print_restaurantsbis;

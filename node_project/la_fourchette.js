@@ -11,7 +11,6 @@ function set_deals(restaurants_json)
 			promises_pages.push(set_deal(value));
 		});
 		Promise.all(promises_pages).then(values=>{
-			console.log(values);
 			resolve(values);
 		})
 	});
@@ -25,7 +24,6 @@ function set_deal(restaurant)
 				if(deals[0])
 				{
 					deals.forEach(function(deal){
-						console.log(deal);
 						restaurant.promo_la_fourchette.push(deal);
 					});
 				}
@@ -47,7 +45,7 @@ function get_restaurant_promo_url(restaurant_json)
 				var content = JSON.parse($('body').text());
 				for(let i=0; i<content.length; i++)
 				{
-					if(restaurant_json.adress.postal_code == content[i].address.postal_code)
+					if(restaurant_json.address.postal_code == content[i].address.postal_code)
 					{
 						resolve(url_promo + content[i].id + "/sale-type");
 					}
