@@ -1,0 +1,44 @@
+header {
+	font-family: 'Verdana';
+	background-color: #7092AD;
+	padding: 10px;
+}
+body {
+	background-color: #E3E7EA;
+}
+ul {
+	list-style-type: none;
+}
+h2 {
+	margin-bottom: 30px;
+}
+.restaurant {
+	margin-top:40px;
+}
+.offers {
+	margin-top:20px;
+}
+.offers-div li {
+	background-color: #B6CAD3;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.adress {
+	font-weight: 500;
+}
+.contact {
+	background-color: #E3E7EA;
+}
+.name-input label, .name-input input{
+	margin-right: 10px;
+}
+.name-form, .stars-form {
+	margin-top: 20px;
+}
+.degrade {
+	background-image:linear-gradient(#7092AD, #E3E7EA);
+	padding: 5px;
+}
+.stars-form {
+	width: 70%;
+}

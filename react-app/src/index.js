@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import restaurants from './output.json';
+import './index.css';
 import star from './Resources/star.png'
 var accents = require('remove-accents');
 
@@ -67,11 +68,13 @@ class NameForm extends React.Component {
 	}
 	render() {
 		return (
-			<div>
+			<div class="name-form">
 				<form onSubmit={this.handleNameSubmit}>
-					<label>Nom du restaurant :</label>
-					<input class="form-control" type="text" value={this.state.value} onChange={this.handleNameChange} />
-					<input class="btn" type="submit" value="Rechercher" />
+					<div class="name-input container row">
+						<label>Nom du restaurant :</label>
+						<input  type="text" value={this.state.value} onChange={this.handleNameChange} />
+						<input class="btn btn-primary" type="submit" value="Rechercher" />
+					</div>
 				</form>
 			</div>)
 	}
@@ -107,21 +110,25 @@ class StarsForm extends React.Component {
 	}
 	render() {
 		return (
-			<form onSubmit={this.handleStarsSubmit}>
-				<div>
-					<input type="checkbox" class="form-check-input" defaultChecked={this.state.chkbox[0]} onChange={this.handleStarsChange1}/>
-					<label class="form-check-label">restaurants 1 étoile</label>
-				</div>
-				<div>
-				    <input type="checkbox" class="form-check-input" defaultChecked={this.state.chkbox[1]} onChange={this.handleStarsChange2}/>
-				    <label class="form-check-label">restaurants 2 étoiles</label>
-				</div>
-				<div>
-				    <input type="checkbox" class="form-check-input" defaultChecked={this.state.chkbox[2]} onChange={this.handleStarsChange3}/>
-				    <label class="form-check-label">restaurants 3 étoiles</label>
-				</div>
-				<input class="btn" type="submit" value="Rechercher" />
-			</form>)
+			<div class="stars-form">
+				<form onSubmit={this.handleStarsSubmit}>
+					<div class="container row">
+							<div class="col-sm">
+								<input type="checkbox" class="form-check-input" defaultChecked={this.state.chkbox[0]} onChange={this.handleStarsChange1}/>
+								<label class="form-check-label">1 étoile</label>
+							</div>
+							<div class="col-sm">
+							    <input type="checkbox" class="form-check-input" defaultChecked={this.state.chkbox[1]} onChange={this.handleStarsChange2}/>
+							    <label class="form-check-label">2 étoiles</label>
+							</div>
+							<div class="col-sm">
+							    <input type="checkbox" class="form-check-input" defaultChecked={this.state.chkbox[2]} onChange={this.handleStarsChange3}/>
+							    <label class="form-check-label">3 étoiles</label>
+							</div>
+							<input class="btn btn-primary" type="submit" value="Rechercher" />
+						</div>
+				</form>
+			</div>)
 	}
 }
 class PromoLaFourchette extends React.Component {
@@ -179,11 +186,11 @@ class PromosLaFourchette extends React.Component {
 class Address extends React.Component {
 	render() {
 		return (
-			<p class="adress">
+			<div class="adress">
 				{this.props.address.street_block},&nbsp;
 				{this.props.address.postal_code}&nbsp;
 				{this.props.address.locality}
-			</p>)
+			</div>)
 	}
 }
 class Star extends React.Component {
@@ -259,10 +266,11 @@ class Home extends React.Component {
 		return(
 			<html>
 				<header>
-					<h1>Restaurants étoilés Guide Michelin</h1>
+					<h1 class="text-center">Restaurants étoilés Guide Michelin</h1>
 				</header>
 				<body>
 					<div>
+						<div class="degrade"></div>
 						<div class='container filtering-menu'>
 							<NameForm/>
 							<StarsForm/>
