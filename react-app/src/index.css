@@ -32,13 +32,16 @@ h2 {
 .name-input label, .name-input input{
 	margin-right: 10px;
 }
-.name-form, .stars-form {
+.name-form {
 	margin-top: 20px;
+	width: 57%;
+}
+.stars-form {
+	margin-top: 20px;
+	width: 50%;
 }
 .degrade {
 	background-image:linear-gradient(#7092AD, #E3E7EA);
 	padding: 5px;
 }
-.stars-form {
-	width: 70%;
-}
+	

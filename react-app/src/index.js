@@ -70,10 +70,16 @@ class NameForm extends React.Component {
 		return (
 			<div class="name-form">
 				<form onSubmit={this.handleNameSubmit}>
-					<div class="name-input container row">
-						<label>Nom du restaurant :</label>
-						<input  type="text" value={this.state.value} onChange={this.handleNameChange} />
-						<input class="btn btn-primary" type="submit" value="Rechercher" />
+					<div class="container row">
+						<div class="col-md">
+							<label>Nom du restaurant :</label>
+						</div>
+						<div class="col">
+							<input  type="text" value={this.state.value} onChange={this.handleNameChange} />
+						</div>
+						<div class="col-md">
+							<input class="btn btn-primary" type="submit" value="Rechercher" />
+						</div>
 					</div>
 				</form>
 			</div>)
